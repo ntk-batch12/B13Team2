@@ -31,6 +31,13 @@ public class BDemoTest {
 		if (a==b) {
 			System.out.println("I am lost");
 		}
-
+        
+		// Shahed's 
+		int A = 10;
+		int B = 20;
+		 
+		if ( A > B)
+			System.out.println("Great");
+		
 	}
 }
