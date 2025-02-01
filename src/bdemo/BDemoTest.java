@@ -9,6 +9,11 @@ public class BDemoTest {
 		int a = 3;
 		int b = 5;
 		System.out.println(a + b);
+		
+		// part2: Razia calling method
+		getDiff(30,20,10);
+		getDiff(100,50,30);
+		getDiff(200,100,50);
 	}
 	
 
@@ -46,5 +51,9 @@ public class BDemoTest {
 	public void subtract(int x, int y) {
 			System.out.println(x - y);
 		
+	}
+	// part1: Razia's code
+	public static void getDiff(int a ,int b,int c) {
+		System.out.println(a-b-c);
 	}
 }
