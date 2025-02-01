@@ -38,6 +38,13 @@ public class BDemoTest {
 		 
 		if ( A > B)
 			System.out.println("Great");
+	}
+		
+//*HOMEWORK ASSIGNMENT	
+		//ERIC'S FIRST 
+		
+	public void subtract(int x, int y) {
+			System.out.println(x - y);
 		
 	}
 }
