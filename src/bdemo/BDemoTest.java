@@ -79,7 +79,7 @@ public class BDemoTest {
 	 * Adriana's 1st code
 	 */
 
-	public static int homwwork(int n) {
+	public static int homework(int n) {
 		int result = 1;
 		for (int i = 2; i <= n; i++)
 			result = i;
@@ -125,5 +125,27 @@ public class BDemoTest {
 		for (int i = 0; i < exams.length; i++) {
 			System.out.println("Exam " + (i + 1) + " score: " + exams[i]);
 		}
+	}
+	
+	
+	// Adriana's 2nd code
+	// Coffee method()
+	
+	public static void drinkCoffee(String mood) {
+		
+		if (mood.equals("sad") || mood.equals("tired") || mood.equals("sleepy") || mood.equals("off")) {
+			
+			System.out.println("Have some coffee!!!...");
+			
+		}else {
+			
+			System.out.println("Wake up and start coding!!!.....");
+		}
+		
+		
+		
+		
+		
+		
 	}
 }
