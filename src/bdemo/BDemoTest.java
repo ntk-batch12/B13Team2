@@ -3,6 +3,7 @@ package bdemo;
 public class BDemoTest {
 
 	public static void main(String[] args) {
+		
 		System.out.println("Team 2");
 
 		// Eric's comment
@@ -19,6 +20,29 @@ public class BDemoTest {
 		//Ivan's first code calling method to print
 		nbaChamp(122, 121);
 		nbaChamp(121, 122);
+		
+	 
+		// Shahed's 1st Code
+
+			int examOne = 85;
+			int examTwo = 90;
+																					//Fixed
+			if (examOne > examTwo) {
+				System.out.println("Exam One has a higher score than Exam Two.");
+			} else if (examOne < examTwo) {
+				System.out.println("Exam Two has a higher score than Exam One.");
+			} else {
+				System.out.println("Both exams have the same score.");
+			}
+			
+			// Shahed's 2nd code
+			
+		    
+			int[] exams = { 85, 90 };								//THIS IS NOT PRINTING - Fixed - Shahed
+
+			for (int i = 0; i < exams.length; i++) {
+				System.out.println("Exam " + (i + 1) + " score: " + exams[i]);
+			}
 	}
 
 	// implemented a new method called add()
@@ -49,10 +73,13 @@ public class BDemoTest {
 			System.out.println("Great");
 	}
 
-//*HOMEWORK ASSIGNMENT	
+    //*HOMEWORK ASSIGNMENT	
 	// ERIC'S 1st Code
-
-	public void subtract(int x, int y) {						//THIS IS NOT PRINTING
+    
+    
+	public void subtract(int x, int y) {	
+	                                                 //THIS IS NOT PRINTING  
+		                                           // we have to call it directly from the main method. Shahed
 		System.out.println(x - y);
 
 	}
@@ -62,21 +89,9 @@ public class BDemoTest {
 		System.out.println(a - b - c);
 	}
 
-	// Shahed's 1st Code
+	
 
-	public static void main1(String[] args) {
-		int examOne = 85;
-		int examTwo = 90;
-																				//THIS IS NOT PRINTING
-		if (examOne > examTwo) {
-			System.out.println("Exam One has a higher score than Exam Two.");
-		} else if (examOne < examTwo) {
-			System.out.println("Exam Two has a higher score than Exam One.");
-		} else {
-			System.out.println("Both exams have the same score.");
-		}
-
-	}
+	
 
 	/**
 	 * Hello Team,
@@ -123,14 +138,8 @@ public class BDemoTest {
 		} while (i <= 5);
 	}
 
-	// Shahed's 2nd code
-	public static void main3(String[] args) {
-		int[] exams = { 85, 90 };								//THIS IS NOT PRINTING
-
-		for (int i = 0; i < exams.length; i++) {
-			System.out.println("Exam " + (i + 1) + " score: " + exams[i]);
-		}
-	}
+	
+	
 	
 	
 	// Adriana's 2nd code
