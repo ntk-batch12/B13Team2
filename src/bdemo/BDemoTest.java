@@ -100,22 +100,28 @@ public class BDemoTest {
 		}
 
 		return resultA;
-
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
+		// Razia's second code
+		public BDemoTest(int a ,int b) {
+			System.out.println(a*b);
+		}
+
 	
 	
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
