@@ -6,7 +6,19 @@ public class BDemoTest {
 		
 		System.out.println("Team 2");
 		
-		
+		// Razia's Third code
+				int num =20;
+				for (int j=100;j>=1;j--) {
+					System.out.println(j);
+					if (num ==10) {
+						System.out.println("we are done with java");
+					}else {
+						System.out.println("we have deal with java forever");
+					}
+							
+								
+							
+				}
 		
 		
 			
