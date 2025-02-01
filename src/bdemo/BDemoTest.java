@@ -57,20 +57,51 @@ public class BDemoTest {
 		System.out.println(a - b - c);
 	}
 
-	// Shahed's 1st Code 
-	
+	// Shahed's 1st Code
+
 	public static void main1(String[] args) {
-        int examOne = 85;
-        int examTwo = 90;
-        
-        if (examOne > examTwo) {
-            System.out.println("Exam One has a higher score than Exam Two.");
-        } else if (examOne < examTwo) {
-            System.out.println("Exam Two has a higher score than Exam One.");
-        } else {
-            System.out.println("Both exams have the same score.");
-        }
-        
-        
-    }
+		int examOne = 85;
+		int examTwo = 90;
+
+		if (examOne > examTwo) {
+			System.out.println("Exam One has a higher score than Exam Two.");
+		} else if (examOne < examTwo) {
+			System.out.println("Exam Two has a higher score than Exam One.");
+		} else {
+			System.out.println("Both exams have the same score.");
+		}
+
+	}
+	
+	/**
+	 *  Hello Team, 
+	 *  
+	 *  	Adriana's 1st code
+	 */
+	
+	public static int homwwork(int n) {
+		int result = 1;
+		for (int i = 2; i <= n; i++)
+			result = i;
+		return result;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
