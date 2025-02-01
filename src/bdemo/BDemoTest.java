@@ -12,8 +12,13 @@ public class BDemoTest {
 
 		// part2: Razia calling method
 		getDiff(30, 20, 10);
-		getDiff(100, 50, 30);
+		getDiff(100, 50, 30);                //THIS IS PRINTING
 		getDiff(200, 100, 50);
+		
+		
+		//Ivan's first code calling method to print
+		nbaChamp(122, 121);
+		nbaChamp(121, 122);
 	}
 
 	// implemented a new method called add()
@@ -47,13 +52,13 @@ public class BDemoTest {
 //*HOMEWORK ASSIGNMENT	
 	// ERIC'S 1st Code
 
-	public void subtract(int x, int y) {
+	public void subtract(int x, int y) {						//THIS IS NOT PRINTING
 		System.out.println(x - y);
 
 	}
 
 	// part1: Razia's code
-	public static void getDiff(int a, int b, int c) {
+	public static void getDiff(int a, int b, int c) {				//THIS IS PRINTING
 		System.out.println(a - b - c);
 	}
 
@@ -62,7 +67,7 @@ public class BDemoTest {
 	public static void main1(String[] args) {
 		int examOne = 85;
 		int examTwo = 90;
-
+																				//THIS IS NOT PRINTING
 		if (examOne > examTwo) {
 			System.out.println("Exam One has a higher score than Exam Two.");
 		} else if (examOne < examTwo) {
@@ -81,7 +86,7 @@ public class BDemoTest {
 
 	public static int homework(int n) {
 		int result = 1;
-		for (int i = 2; i <= n; i++)
+		for (int i = 2; i <= n; i++)						//THIS IS NOT PRINTING
 			result = i;
 		return result;
 	}
@@ -93,7 +98,7 @@ public class BDemoTest {
 
 		if (number > 0) {
 			resultA = "POSITIVE";
-		} else if (number < 0) {
+		} else if (number < 0) {							//THIS IS NOT PRINTING
 			resultA = "negative";
 		} else {
 			resultA = "ZERO";
@@ -104,7 +109,7 @@ public class BDemoTest {
 
 	// Razia's second code
 	public BDemoTest(int a, int b) {
-		System.out.println(a * b);
+		System.out.println(a * b);							//THIS IS NOT PRINTING
 	}
 
 	// ERIC'S Third Code
@@ -112,7 +117,7 @@ public class BDemoTest {
 		int i = 1;
 
 		do {
-			System.out.println(i);
+			System.out.println(i);							//THIS IS NOT PRINTING
 			i++;
 
 		} while (i <= 5);
@@ -120,7 +125,7 @@ public class BDemoTest {
 
 	// Shahed's 2nd code
 	public static void main3(String[] args) {
-		int[] exams = { 85, 90 };
+		int[] exams = { 85, 90 };								//THIS IS NOT PRINTING
 
 		for (int i = 0; i < exams.length; i++) {
 			System.out.println("Exam " + (i + 1) + " score: " + exams[i]);
@@ -136,7 +141,7 @@ public class BDemoTest {
 		if (mood.equals("sad") || mood.equals("tired") || mood.equals("sleepy") || mood.equals("off")) {
 			
 			System.out.println("Have some coffee!!!...");
-			
+																				//THIS IS NOT PRINTING
 		}else {
 			
 			System.out.println("Wake up and start coding!!!.....");
@@ -148,4 +153,21 @@ public class BDemoTest {
 		
 		
 	}
+	//Ivan's first code
+			public static int nbaChamp(int lakers, int celtics) {
+				int result = 0;
+				
+				                             
+			if(lakers > celtics) {
+				System.out.println("NBA Champion is the LOS ANGELES LAKERS" );
+			} else {
+				System.out.println("NBA Champion is BOSTON CELTICS " );
+
+			}
+			
+			return result;
+		}
 }
+//Hello team, we need to figure out why the certain codes are not running
+//I believe is that some of them are are not called at the main method
+//Remember if you are doing a method you need to call it in the main
