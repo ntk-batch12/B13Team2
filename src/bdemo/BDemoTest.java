@@ -107,7 +107,16 @@ public class BDemoTest {
 			System.out.println(a*b);
 		}
 
-	
+	//ERIC'S Third Code
+	public void doWhileLoop() {
+		int i = 1;
+		
+		do {
+			System.out.println (i);
+			i++;
+			
+		} while (i <= 5);
+	}
 	
 }
 	
