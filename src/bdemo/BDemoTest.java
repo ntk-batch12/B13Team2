@@ -27,6 +27,10 @@ public class BDemoTest {
 		if (team2 > otherTeams) {
 			System.out.println("WE THE BEST");
 		}
+		// Razia 
+		if (a==b) {
+			System.out.println("I am lost");
+		}
 
 	}
 }
