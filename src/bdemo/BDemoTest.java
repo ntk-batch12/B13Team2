@@ -86,8 +86,22 @@ public class BDemoTest {
 		return result;
 	}
 	
+	//Eric's Second Code
 	
-	
+	public static String getNumber(int number) {
+		String resultA = "";
+
+		if (number > 0) {
+			resultA = "POSITIVE";
+		} else if (number < 0) {
+			resultA = "negative";
+		} else {
+			resultA = "ZERO";
+		}
+
+		return resultA;
+
+	}
 	
 	
 	
