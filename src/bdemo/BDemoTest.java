@@ -72,22 +72,22 @@ public class BDemoTest {
 		}
 
 	}
-	
+
 	/**
-	 *  Hello Team, 
-	 *  
-	 *  	Adriana's 1st code
+	 * Hello Team,
+	 * 
+	 * Adriana's 1st code
 	 */
-	
+
 	public static int homwwork(int n) {
 		int result = 1;
 		for (int i = 2; i <= n; i++)
 			result = i;
 		return result;
 	}
-	
-	//Eric's Second Code
-	
+
+	// Eric's Second Code
+
 	public static String getNumber(int number) {
 		String resultA = "";
 
@@ -101,36 +101,29 @@ public class BDemoTest {
 
 		return resultA;
 	}
-		
-		// Razia's second code
-		public BDemoTest(int a ,int b) {
-			System.out.println(a*b);
-		}
 
-	//ERIC'S Third Code
+	// Razia's second code
+	public BDemoTest(int a, int b) {
+		System.out.println(a * b);
+	}
+
+	// ERIC'S Third Code
 	public void doWhileLoop() {
 		int i = 1;
-		
+
 		do {
-			System.out.println (i);
+			System.out.println(i);
 			i++;
-			
+
 		} while (i <= 5);
 	}
-	
-}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
+	// Shahed's 2nd code
+	public static void main3(String[] args) {
+		int[] exams = { 85, 90 };
+
+		for (int i = 0; i < exams.length; i++) {
+			System.out.println("Exam " + (i + 1) + " score: " + exams[i]);
+		}
+	}
+}
