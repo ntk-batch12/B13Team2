@@ -4,13 +4,26 @@ public class BDemoTest {
 
 	public static void main(String[] args) {
 		System.out.println("Team 2");
+		
+		
+		// Razia's Third code
+		int num =100;
+		for (int j=100;j>=1;j--) {
+			System.out.println(j);
+			if (num ==10) {
+				System.out.println("we are dine with java");
+			}else {
+				System.out.println("we have deal with java forever");
+			}
+		}
+			
 
 		// Eric's comment
 		int a = 3;
 		int b = 5;
 		System.out.println(a + b);
 
-		// part2: Razia calling method
+		// part2: Razia's calling method
 		getDiff(30, 20, 10);
 		getDiff(100, 50, 30);
 		getDiff(200, 100, 50);
@@ -31,7 +44,7 @@ public class BDemoTest {
 		if (team2 > otherTeams) {
 			System.out.println("WE THE BEST");
 		}
-		// Razia
+		// Razia's
 		if (a == b) {
 			System.out.println("I am lost");
 		}
