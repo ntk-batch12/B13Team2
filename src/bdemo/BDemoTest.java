@@ -239,6 +239,21 @@ public class BDemoTest {
 			result = i;
 		return result;
 	}
-
+	
+	// I don't know why I cannot pull my commit
+	
+	
+	
+	
+	// Adriana's 4th code
+	
+	int num = 15;
+	{
+    if (num % 2 == 0) {
+        System.out.println(num + " is even.");
+    } else {
+        System.out.println(num + " is odd.");
+    }
 }
-// I don't know why I cannot pull my commit
+}
+
