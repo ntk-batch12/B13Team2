@@ -1,5 +1,7 @@
 package bdemo;
 
+import com.noorteck.java.day16.Department;
+
 public class BDemoTest {
 
 	public static void main(String[] args) {
@@ -51,6 +53,20 @@ public class BDemoTest {
 
 		for (int i = 0; i < exams.length; i++) {
 			System.out.println("Exam " + (i + 1) + " score: " + exams[i]);
+		}
+
+		// Shahed's 3rd code
+
+		String s = "Sleepy";
+		String j = "Just woke up";
+		int A = 38;
+		int x = 94;
+
+		if (A > x) {
+			System.out.println(s);
+
+		} else {
+			System.out.println(j);
 		}
 	}
 
@@ -176,10 +192,6 @@ public class BDemoTest {
 	// I believe is that some of them are are not called at the main method
 	// Remember if you are doing a method you need to call it in the main
 
-	
-	
-	
-	
 	// Adriana's 3rd code
 	// my life cycle
 
@@ -194,7 +206,8 @@ public class BDemoTest {
 		}
 
 	}
-	//Eric's fourth and final code
+
+	// Eric's fourth and final code
 	public void withdraw() {
 		int balance = 4;
 		int withdrawAmount = 2;
@@ -204,7 +217,8 @@ public class BDemoTest {
 		} else {
 			System.out.println("You Cannot Withdraw More than your Current Balance");
 		}
+
+		// Shahed's 3rd code
+
 	}
-	
-	
 }
