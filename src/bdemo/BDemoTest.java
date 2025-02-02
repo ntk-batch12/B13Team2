@@ -270,6 +270,8 @@ public class BDemoTest {
         System.out.println(num + " is odd.");
     }
 }
+	
+	//Ivan's third commit
 	static boolean isEqual(String strOne, String strTwo) {
 		boolean result = false;
 
