@@ -14,9 +14,10 @@ public class BDemoTest {
 				System.out.println("we are done with java");
 			} else {
 				System.out.println("we have deal with java forever");
-			}
-
-		}
+			}	
+			// Razia's calling constractor
+			BDemoTest BD = new BDemoTest ();
+			BD.BDemoTest(22,11);
 
 		// Eric's comment
 		int a = 3;
@@ -27,7 +28,14 @@ public class BDemoTest {
 		getDiff(30, 20, 10);
 		getDiff(100, 50, 30); // THIS IS PRINTING
 		getDiff(200, 100, 50);
-
+		
+		// part2: Razia's calling method
+		BDemoTest DB = new BDemoTest();
+		 int r1= DB.checkNP(-22,-22);
+		 int r2= DB.checkNP(10,10);
+		 int r3= DB.checkNP(22,6);
+		 int r4= DB.checkNP(-1,1);
+		 int r5= DB.checkNP(0,0);
 		// Ivan's first code calling method to print
 		nbaChamp(122, 121);
 		nbaChamp(121, 122);
@@ -52,6 +60,12 @@ public class BDemoTest {
 		for (int i = 0; i < exams.length; i++) {
 			System.out.println("Exam " + (i + 1) + " score: " + exams[i]);
 		}
+		}
+	}
+
+	private void BDemoTest(int i, int j) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	// implemented a new method called add()
@@ -127,8 +141,12 @@ public class BDemoTest {
 	}
 
 	// Razia's second code
-	public BDemoTest(int a, int b) {
-		System.out.println(a * b); // THIS IS NOT PRINTING
+	public  BDemoTest(int a,int b) {
+		System.out.println(a*b); // THIS IS NOT PRINTING
+	}                           // I fixed it 
+
+	public BDemoTest() {
+		// TODO Auto-generated constructor stub
 	}
 
 	// ERIC'S Third Code
@@ -204,6 +222,19 @@ public class BDemoTest {
 		} else {
 			System.out.println("You Cannot Withdraw More than your Current Balance");
 		}
+	}
+	// Part 1: Razia's fourth code 
+	public int checkNP(int a,int b) {
+		int result=0;
+		if (a < 0 || b<0) {
+			System.out.println("Negaitve number");
+		}else if (a>=0 || b>=0) {
+			System.out.println("positive number");
+		}
+		
+		
+		
+		return result;
 	}
 	
 	
