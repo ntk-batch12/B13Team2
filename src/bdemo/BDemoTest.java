@@ -34,11 +34,19 @@ public class BDemoTest {
 		printer(6); //second code call
 		
 		
-		//third call 
+		//third call Ivan
 		boolean r1 = (isEqual("sdet", "SDET"));
 		boolean r2 = (isEqual("testing", "testing"));
 		boolean r3 = (isEqual("java", "java"));
 		boolean r4 = (isEqual("java", "java Programming"));
+		
+		//LAST CALL
+		getResult(5, 5);
+		getResult(2, 9);
+		getResult(80, 4);
+		
+		
+		
 		
 		
 		System.out.println(r1);
@@ -283,5 +291,22 @@ public class BDemoTest {
 	}
 	
 	
+	//My last code att. Ivan :)
+	
+	public static void getResult(int numOne, int numTwo) {
+		int result1 = (numOne + numTwo);
+		int result2 = (numTwo - numOne);
+		int result3 = (numOne * numTwo);
+		if (numOne > numTwo) {
+			System.out.println(numTwo + " - " + numOne + " = " + result2);
+			
+		} else if (numOne < numTwo) {
+			System.out.println(numOne + " + " + numTwo + " = " + result1);
+			
+		} else {
+			System.out.println(numTwo + " * " + numOne + " = " + result3);
+		}
+
+	}
 }
 
