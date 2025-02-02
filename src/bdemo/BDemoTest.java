@@ -1,9 +1,9 @@
 package bdemo;
 
-import com.noorteck.java.day16.Department;
+
 public class BDemoTest {
 	public static void main(String[] args) {
-        System.out.println("Team 2");
+		System.out.println("Team 2");
 
 		// Razia's Third code
 		int num = 20;
@@ -32,11 +32,7 @@ public class BDemoTest {
 		nbaChamp(121, 122);
 
 		printer(6);
-		
-		
-		
-		
-		
+
 		// Shahed's 1st Code
 
 		int examOne = 85;
@@ -222,16 +218,17 @@ public class BDemoTest {
 		}
 
 		// Shahed's 3rd code
-		
-		
-	
-		
+
 	}
-	
+
+	// Ivan's second code
 	public static int printer(int p) {
 		int result = 1;
-		for (int i = 2; i <= p; i++) 
-			result = i;
+		
+		for (int i = 2; i <= p; i++)
+			
+		result = i;
+		
 		return result;
 	}
 
