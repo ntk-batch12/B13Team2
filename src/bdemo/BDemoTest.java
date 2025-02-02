@@ -1,12 +1,9 @@
 package bdemo;
 
 import com.noorteck.java.day16.Department;
-
 public class BDemoTest {
-
 	public static void main(String[] args) {
-
-		System.out.println("Team 2");
+        System.out.println("Team 2");
 
 		// Razia's Third code
 		int num = 20;
