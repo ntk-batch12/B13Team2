@@ -1,6 +1,6 @@
 package bdemo;
 
-import com.noorteck.java.day16.Department;
+
 public class BDemoTest {
 	public static void main(String[] args) {
         System.out.println("Team 2");
@@ -70,6 +70,15 @@ public class BDemoTest {
 
 		} else {
 			System.out.println(j);
+		}
+		//Shahed's 4th code 
+		
+		int temp = 70;
+		String day = "sunday";
+		
+		if (temp >= 70) {
+			System.out.println(day);
+			
 		}
 	}
 
