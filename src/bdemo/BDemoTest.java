@@ -31,7 +31,20 @@ public class BDemoTest {
 		nbaChamp(122, 121);
 		nbaChamp(121, 122);
 
-		printer(6);
+		printer(6); //second code call
+		
+		
+		//third call 
+		boolean r1 = (isEqual("sdet", "SDET"));
+		boolean r2 = (isEqual("testing", "testing"));
+		boolean r3 = (isEqual("java", "java"));
+		boolean r4 = (isEqual("java", "java Programming"));
+		
+		
+		System.out.println(r1);
+		System.out.println(r2);
+		System.out.println(r3);
+		System.out.println(r4);
 
 		// Shahed's 1st Code
 
@@ -66,6 +79,15 @@ public class BDemoTest {
 
 		} else {
 			System.out.println(j);
+		}
+		//Shahed's 4th code 
+		
+		int temp = 70;
+		String day = "sunday";
+		
+		if (temp >= 70) {
+			System.out.println(day);
+			
 		}
 	}
 
@@ -219,6 +241,7 @@ public class BDemoTest {
 
 		// Shahed's 3rd code
 
+		
 	}
 
 	// Ivan's second code
@@ -231,6 +254,32 @@ public class BDemoTest {
 		
 		return result;
 	}
-
+	
+	// I don't know why I cannot pull my commit
+	
+	
+	
+	
+	// Adriana's 4th code
+	
+	int num = 15;
+	{
+    if (num % 2 == 0) {
+        System.out.println(num + " is even.");
+    } else {
+        System.out.println(num + " is odd.");
+    }
 }
-// I don't know why I cannot pull my commit
+	static boolean isEqual(String strOne, String strTwo) {
+		boolean result = false;
+
+		if (strOne.equals(strTwo)) {
+			result = true;
+		}
+
+		return result;
+	}
+	
+	
+}
+
