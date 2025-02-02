@@ -221,10 +221,6 @@ public class BDemoTest {
 			System.out.println("You Cannot Withdraw More than your Current Balance");
 		}
 
-		// Shahed's 3rd code
-		
-		
-	
 		
 	}
 	
