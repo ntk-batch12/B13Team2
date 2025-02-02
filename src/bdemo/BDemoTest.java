@@ -194,5 +194,17 @@ public class BDemoTest {
 		}
 
 	}
-
+	//Eric's fourth and final code
+	public void withdraw() {
+		int balance = 4;
+		int withdrawAmount = 2;
+		if (withdrawAmount <= balance) {
+			balance = balance - withdrawAmount;
+			System.out.println(balance);
+		} else {
+			System.out.println("You Cannot Withdraw More than your Current Balance");
+		}
+	}
+	
+	
 }
