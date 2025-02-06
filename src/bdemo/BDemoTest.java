@@ -1,10 +1,8 @@
 package bdemo;
 
 public class BDemoTest {
-
 	public static void main(String[] args) {
-
-		System.out.println("Team 2");
+        System.out.println("Team 2");
 
 		// Razia's Third code
 		int num = 20;
@@ -26,6 +24,9 @@ public class BDemoTest {
 		getDiff(30, 20, 10);
 		getDiff(100, 50, 30); // THIS IS PRINTING
 		getDiff(200, 100, 50);
+		
+		
+		
 		
 		
 		// Ivan's first code calling method to print
@@ -52,12 +53,29 @@ public class BDemoTest {
 		for (int i = 0; i < exams.length; i++) {
 			System.out.println("Exam " + (i + 1) + " score: " + exams[i]);
 		}
+
 		}
 	}
 
 	private void BDemoTest(int i, int j) {
 		// TODO Auto-generated method stub
 		
+
+
+		// Shahed's 3rd code
+
+		String s = "Sleepy";
+		String j1 = "Just woke up";
+		int A = 38;
+		int x = 94;
+
+		if (A > x) {
+			System.out.println(s);
+
+		} else {
+			System.out.println(j1);
+		}
+
 	}
 
 	// implemented a new method called add()
@@ -138,7 +156,7 @@ public class BDemoTest {
 	}                           // I fixed it 
 
 	public BDemoTest() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	// ERIC'S Third Code
@@ -186,10 +204,6 @@ public class BDemoTest {
 	// I believe is that some of them are are not called at the main method
 	// Remember if you are doing a method you need to call it in the main
 
-	
-	
-	
-	
 	// Adriana's 3rd code
 	// my life cycle
 
@@ -204,7 +218,8 @@ public class BDemoTest {
 		}
 
 	}
-	//Eric's fourth and final code
+
+	// Eric's fourth and final code
 	public void withdraw() {
 		int balance = 4;
 		int withdrawAmount = 2;
@@ -214,8 +229,19 @@ public class BDemoTest {
 		} else {
 			System.out.println("You Cannot Withdraw More than your Current Balance");
 		}
+
+		// Shahed's 3rd code
+
+	
+	// I am not able to push my code
+
+	
+				
+				
+				
 	}
-	
-	
-	
 }
+
+	
+
+
