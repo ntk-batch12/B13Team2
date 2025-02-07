@@ -1,8 +1,11 @@
 package bdemo;
 
+ 
+
+
 public class BDemoTest {
 	public static void main(String[] args) {
-        System.out.println("Team 2");
+		System.out.println("Team 2");
 
 		// Razia's Third code
 		int num = 20;
@@ -32,6 +35,29 @@ public class BDemoTest {
 		// Ivan's first code calling method to print
 		nbaChamp(122, 121);
 		nbaChamp(121, 122);
+
+		printer(6); //second code call
+		
+		
+		//third call Ivan
+		boolean r1 = (isEqual("sdet", "SDET"));
+		boolean r2 = (isEqual("testing", "testing"));
+		boolean r3 = (isEqual("java", "java"));
+		boolean r4 = (isEqual("java", "java Programming"));
+		
+		//LAST CALL
+		getResult(5, 5);
+		getResult(2, 9);
+		getResult(80, 4);
+		
+		
+		
+		
+		
+		System.out.println(r1);
+		System.out.println(r2);
+		System.out.println(r3);
+		System.out.println(r4);
 
 		// Shahed's 1st Code
 
@@ -74,6 +100,16 @@ public class BDemoTest {
 
 		} else {
 			System.out.println(j1);
+		}
+
+		//Shahed's 4th code 
+		
+		int temp = 70;
+		String day = "sunday";
+		
+		if (temp >= 70) {
+			System.out.println(day);
+			
 		}
 
 	}
@@ -232,16 +268,69 @@ public class BDemoTest {
 
 		// Shahed's 3rd code
 
+
 	
 	// I am not able to push my code
+	}
+
+	// Ivan's second code
+	public static int printer(int p) {
+		int result = 1;
+		
+		for (int i = 2; i <= p; i++)
+			
+		result = i;
+		
+		return result;
+	}
+	
+	// I don't know why I cannot pull my commit
+	
+	// Adriana's 4th code
+	
+	int num = 15;
+	{
+    if (num % 2 == 0) {
+        System.out.println(num + " is even.");
+    } else {
+        System.out.println(num + " is odd.");
+    }
+}
+	
+	//Ivan's third commit
+	static boolean isEqual(String strOne, String strTwo) {
+		boolean result = false;
+
+		if (strOne.equals(strTwo)) {
+			result = true;
+		}
+
+		return result;
+	}
+	
+	
+	//My last code att. Ivan :)
+	
+	public static void getResult(int numOne, int numTwo) {
+		int result1 = (numOne + numTwo);
+		int result2 = (numTwo - numOne);
+		int result3 = (numOne * numTwo);
+		if (numOne > numTwo) {
+			System.out.println(numTwo + " - " + numOne + " = " + result2);
+			
+		} else if (numOne < numTwo) {
+			System.out.println(numOne + " + " + numTwo + " = " + result1);
+			
+		} else {
+			System.out.println(numTwo + " * " + numOne + " = " + result3);
+		}
+
 
 	
-				
-				
-				
-	}
 }
 
+}
 	
+
 
 
