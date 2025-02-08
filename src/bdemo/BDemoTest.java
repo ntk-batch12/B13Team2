@@ -6,8 +6,6 @@ package bdemo;
 public class BDemoTest {
 	public static void main(String[] args) {
 		System.out.println("Team 2");
-		System.out.println("Team 3");
-		System.out.println("Team 4");
 
 		// Razia's Third code
 		int num = 20;
