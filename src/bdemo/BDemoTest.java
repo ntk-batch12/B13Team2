@@ -330,6 +330,12 @@ public class BDemoTest {
 		} else {
 			System.out.println(numTwo + " * " + numOne + " = " + result3);
 		}
+	}
+		int num1(int v ,int b) {
+			int result =0;
+			
+			return result;
+		
 
 
 	
