@@ -137,6 +137,8 @@ public class BDemoTest {
 		// Shahed's
 		int A = 10;
 		int B = 20;
+		int v=20;
+		int f= 100;
 
 		if (A > B)
 			System.out.println("Great");
