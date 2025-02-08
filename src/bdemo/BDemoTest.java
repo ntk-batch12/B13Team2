@@ -140,6 +140,7 @@ public class BDemoTest {
 
 		if (A > B)
 			System.out.println("Great");
+		System.out.println("added");
 	}
 
 	// *HOMEWORK ASSIGNMENT
