@@ -27,6 +27,9 @@ public class BDemoTest {
 		getDiff(30, 20, 10);
 		getDiff(100, 50, 30); // THIS IS PRINTING
 		getDiff(200, 100, 50);
+			getDiff(200, 2, 2);
+			getDiff(200, 4, 5);
+			getDiff(200, 100, 50);
 		
 		
 		
